@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+/* navbar styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 10%
+}
+
+.logo {
+    cursor:pointer;
+    margin-right: auto;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #DB5461;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: #DB5461;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #D43545;
+}
+
+/* home section styling */
+.home{
+    display: flex;
+    height: 100vh;
+    color: #fff;
+    min-height: 500px;
+    font-family: "Montserrat", sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 40px;
+    margin: 5px 0
+}
+.home .home-content .text-3 span{
+    color:#DB5461;
+    font-weight: 500;
+}
+
+@media (max-width: 500px) {
+    } .home .home-content .text-2{
+        font-size: 70px;
+    }
+    .home .home-content .text-3{
+        font-size: 32px;
+    }
+
+/* About Me Page */
+.welcome {
+    color:#DB5461;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    margin: auto 0 auto 400px;
+    display: flex;
+    padding: 20px;
+    align-self:auto;
+    min-width: 400px;
+    /* height: 100vh; */
+    /* justify-content:space-between; */
+}
+h3 {
+    color: #DB5461;
+    font-family: "Montserrat", sans-serif;
+    /* margin: auto 0 auto 100px; */
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+h4 {
+    color: #DB5461;
+    font-family: "Montserrat", sans-serif;
+    /* margin: auto 0 auto 100px; */
+    font-size: 20px;
+    padding-top: 10px;
+    display: flex;
+    justify-content:space-between;
+}
+.aboutMe {
+    /* align-self: center; */
+    border-radius: 25px;
+    border: 2px solid #DB5461;
+    margin: 20px;
+    padding: 40px;
+    width: 90%;
+    height: 70%;
+    min-width: 600px;
+}
+.aboutText {
+    /* border: 1px solid #DB5461; */
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    overflow-wrap: break-word;
+    justify-content: space-between;
+    min-width: 400px;
+    max-width: 70%;
+    margin: 20px 0;
+}
+.myImage {
+    border-radius: 50%;
+    float: right;
+    /* margin: auto 150px auto 40px; */
+    width: 300px;
+    display: flex;
+    /* justify-content: start;   */
+}
+ul {
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-left: 10px;
+    min-width: 300px;
+    max-width: 500px;
+}
+li {
+    /* background-color: #DB5461; */
+    display: block;
+    position: relative;
+    justify-content: space-between;
+    margin: 10px 0;
+    /* flex: 0 1 auto; */
+}
+
+/* Work Page */
+.card-group {
+ /* display: inline-flex;    */
+ margin-left: auto;
+ margin-right: auto;
+ display: grid;
+ grid-template-columns: 2fr 2fr;
+ grid-gap: 5px;
+ max-width: 500px;
+}
+.card {
+    max-width: 400px;
+    text-align: justify;
+    justify-content: space-between;
+    background-color: #edf0f1;
+    display: flexbox;
+    border: 2px solid #DB5461;
+    padding: 20px;
+    margin: 10px;
+}
+.workImage {
+    /* min-width: 200px; */
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #edf0f1;
+}
+.card-body {
+    background-color: #edf0f1;
+    max-width: 400px;
+}
+.card-title {
+    background-color: #edf0f1;
+}
+.card-text {
+    background-color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    max-width: 400px;
+    padding: 10px;
+}
+.card-footer{
+    background-color: #edf0f1;
+}
+.btn btn-primary {
+    background-color: #edf0f1;
+}
