@@ -149,7 +149,8 @@ h4 {
     max-width: 70%;
     margin: 20px 0;
 }
-img {
+
+.myImage {
     border-radius: 50%;
     float: right;
     /* margin: auto 150px auto 40px; */
@@ -173,5 +174,59 @@ li {
     justify-content: space-between;
     margin: 10px 0;
     /* flex: 0 1 auto; */
+}
+
+
+/* Work Page */
+.card-group {
+ /* display: inline-flex;    */
+ /* margin-left: auto; */
+ /* margin-right: auto; */
+ margin: 0 auto;
+ display: grid;
+ text-align: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ padding: 0 3%;
+ grid-gap: 15px;
+ max-width: 500px;
+ grid-template-columns: 2fr 2fr;
+}
+.card {
+    max-width: 400px;
+    text-align: justify;
+    justify-content: space-between;
+    background-color: #edf0f1;
+    display: flexbox;
+    border: 2px solid #DB5461;
+    padding: 20px;
+    margin: 10px;
+}
+.workImage {
+    /* min-width: 200px; */
+    max-width: 350px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #edf0f1;
+}
+.card-body {
+    background-color: #edf0f1;
+    max-width: 400px;
+}
+.card-title {
+    background-color: #edf0f1;
+}
+.card-text {
+    background-color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    max-width: 400px;
+    padding: 10px;
+}
+.card-footer{
+    background-color: #edf0f1;
+}
+.btn btn-primary {
+    background-color: #edf0f1;
 }
 
