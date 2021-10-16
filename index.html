@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
-<!-- imported GitHub icon -->
+<!-- imported styles.css -->
+<!-- <link rel="stylesheet" href="styles.css" -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
@@ -26,6 +27,10 @@
         }
         .navbar {
             background-color:#3D5467;
+            /* display: flex;
+            padding: 16px;
+            font-family: sans-serif;
+            color: white; */
         }
         .background {
             width: 100%;
@@ -36,9 +41,10 @@
         }
         .list-group-item.active {
             background-color: #3D5467;
+            color: white;
         }
         a.list-group-item.list-group-item-action:hover {
-            color: #3D5467;
+            color: #707981;
         }
         img {
             border-radius: 50%;
@@ -54,10 +60,23 @@
             font-size: 16px;
             cursor: pointer;
         }
+        .container {
+            color: white
+            /* Welcome to My Portfolio to My Projects */
+        }
+        .myText {
+            color: whitesmoke;
+            /* The about me & my projects text */
+        }
+        .nav-item {
+            color: white;
+        }
     </style>
 </head>
 <body>
     <!-- This is your navigation bar. See: https://getbootstrap.com/docs/4.0/components/navbar/-->
+    
+    
     <nav class="navbar navbar-expand-sm navbar-light">
         <div class="container">
             <!-- Here is where you will add your name -->
@@ -66,7 +85,7 @@
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <div class="collapse-navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav ml-auto mt-lg-0">
                     <!-- In each list item (li) is where your links go -->
                     <li class="nav-item active">
@@ -100,7 +119,7 @@
                         <h3>About</h3>
                         <!-- The <p> tag is used to designate paragraphs of text -->
                         <p class="myText">
-                            I'm Kelly Evans, a full stack developer based in Baltimore, Maryland. As a former intelligence analyst in the US Army, I enjoy making data meaningful to users, clients, and fellow developers. 
+                            I'm Kelly Evans, a full stack developer based in Baltimore, Maryland. As a former intelligence analyst in the US Army, I enjoy making data meaningful to users, clients, and fellow developers. A self-described 'life-long learner,' software development has been an ideal transition as there is always more to know!
                         </p>
                         <h3>My Projects</h3>
                         <p class="myText">

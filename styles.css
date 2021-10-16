@@ -93,6 +93,7 @@ button:hover {
         font-size: 32px;
     }
 
+
 /* About Me Page */
 .welcome {
     color:#DB5461;
@@ -148,6 +149,7 @@ h4 {
     max-width: 70%;
     margin: 20px 0;
 }
+
 .myImage {
     border-radius: 50%;
     float: right;
@@ -173,6 +175,7 @@ li {
     margin: 10px 0;
     /* flex: 0 1 auto; */
 }
+
 
 /* Work Page */
 .card-group {
@@ -226,3 +229,4 @@ li {
 .btn btn-primary {
     background-color: #edf0f1;
 }
+

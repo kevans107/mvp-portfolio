@@ -10,8 +10,12 @@ LEARN portfolio starter template using HTML, CSS, and Bootstrap. Clone this repo
 - Add your images
 - Add your work experience
 
+## Navbar 
+- Navbar created, still needs functionality
+
 ## Home
 
+- Typing feature not functional
 - Add an image of yourself
 - Add your name to the navigation and header
 - Add your contact info in the list-group under the image
