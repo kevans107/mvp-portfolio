@@ -177,12 +177,17 @@ li {
 /* Work Page */
 .card-group {
  /* display: inline-flex;    */
- margin-left: auto;
- margin-right: auto;
+ /* margin-left: auto; */
+ /* margin-right: auto; */
+ margin: 0 auto;
  display: grid;
- grid-template-columns: 2fr 2fr;
- grid-gap: 5px;
+ text-align: center;
+ justify-content: space-around;
+ flex-wrap: wrap;
+ padding: 0 3%;
+ grid-gap: 15px;
  max-width: 500px;
+ grid-template-columns: 2fr 2fr;
 }
 .card {
     max-width: 400px;
