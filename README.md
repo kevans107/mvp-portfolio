@@ -11,7 +11,7 @@ LEARN portfolio starter template using HTML, CSS, and Bootstrap. Clone this repo
 - Add your work experience
 
 ## Navbar 
-- Navbar created, still needs functionality
+- ✅ Navbar created, still needs functionality
 
 ## Home
 
@@ -21,7 +21,7 @@ LEARN portfolio starter template using HTML, CSS, and Bootstrap. Clone this repo
 - Add your contact info in the list-group under the image
 - Add your name to the header
 - Add your name to the footer
-- Add a blurb intro about yourself
+- ✅ Add a blurb intro about yourself
 
 ## Work
 
@@ -31,8 +31,8 @@ LEARN portfolio starter template using HTML, CSS, and Bootstrap. Clone this repo
 
 ## Contact
 
-- Add an image
-- Add your contact information
+- ✅ Add an image
+- ✅ Add your contact information
 - Add your name to nav and footer
 
 ## How to make your portfolio better
@@ -41,10 +41,10 @@ LEARN portfolio starter template using HTML, CSS, and Bootstrap. Clone this repo
 - Add links
 - Add work experience
 - Add links to your projects
-- Add your technical knowledge
+- ✅ Add your technical knowledge
 - Add your name to the nav and footer
 - Add animations
-- Add a form for people to email you on the contact page
+- ✅ Add a form for people to email you on the contact page
 
 ## Branch History
 navigation-bar
@@ -55,13 +55,13 @@ navigation-bar
 ## Final Project Checklist
 
 # About Me
-- Who you are
+- ✅ Who you are
 - Professional Quality Photo
 - What kind of work you do
-- A list of specialized developer skills
+- ✅ A list of specialized developer skills
 - Contact information
 - How will you brand yourself?
-- Technical skills
+- ✅ Technical skills
     - HTML & CSS
     - Javascript 
     - React 
@@ -71,7 +71,7 @@ navigation-bar
     - Git Version Control 
 
 # Contact Me
-- email form
+- ✅ email form
 
 # Education & Experience
 
