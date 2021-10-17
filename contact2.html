@@ -15,18 +15,46 @@
         <nav>
             <ul class="nav__links">
                 <li><a href="index2.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#">Work</a></li>
+                <li><a href="about2.html">About</a></li>
+                <li><a href="work2.html">Work</a></li>
             </ul>
         </nav>
         <a class="cta" href="contact2.html"><button>Contact</button></a>
     </header>
 
-    <div id="myImage">
-        <!-- Your image goes here -->
-        <img src="assets/images/kelly_evans.jpeg" alt="Kelly Evans Profile Image" height="auto" width="70%">
-    </div>
-
-    
+    <div class="container">
+        <div style="text-align:center">
+        </div>
+            
+            <!-- <h3>Let's Talk!</h3> -->
+            
+            <!-- <div class="row"> -->
+                <!-- <div class="column"> -->
+                        <!-- Your image goes here -->
+                        <img class="myImage2" src="assets/images/kelly_evans.jpeg" alt="Kelly Evans Profile Image" 
+                        height="auto" width="70%">
+                        <!-- <img src="/w3images/map.jpg" style="width:100%"> -->
+                    <!-- </div> -->
+                    
+                    <div class="column">
+                        <form id="form" action="https://formsubmit.co/07ef3837d0310f7e88bc0b26abadeccc" method="POST">
+                            <label for="name">Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <label for="email">Email Address</label>
+                            <input type="text" id="email" name="email" placeholder="Your email address..">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject">
+                                <option value="general">General Inquiry</option>
+                                <option value="work">Job Opportunity</option>
+                                <option value="other">Other</option>
+                            </select>
+                            <label for="subject">Message</label>
+                            <textarea id="subject" name="subject" placeholder="Your message.." style="height:170px"></textarea>
+                            <input type="submit" value="Submit">
+                        </form>
+                    </div>
+            </div>
+        <!-- </div> -->
+            
 </body>
-</html>
+</html>;
