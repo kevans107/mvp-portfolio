@@ -26,7 +26,22 @@ header {
     cursor:pointer;
     margin-right: auto;
 }
+/* icons */
+.nav__icons {
+    list-style: none;
+    /* float:left; */
+    align-self: flex-start;
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_icons a:hover{
+    background-color: #D43545;
+}
+.linkedIn a:hover{
+    background-color: #D43545;
+}
 
+/* end of icons */
 .nav__links {
     list-style: none;
 }
@@ -55,6 +70,17 @@ button {
 
 button:hover {
     background-color: #D43545;
+}
+
+@media screen and (max-width: 500px){
+    .nav_links a{
+        float:none;
+        display:block;
+    }
+    .nav__links {
+        float:none;
+        display: block;
+    }
 }
 
 /* home section styling */
@@ -167,7 +193,8 @@ ul {
     padding-top: 20px;
     padding-left: 10px;
     min-width: 300px;
-    max-width: 500px;
+    max-width: 400px;
+    /* display: flex; */
 }
 li {
     /* background-color: #DB5461; */
@@ -246,6 +273,7 @@ li {
     width: 80%;
     height: 80%;
     margin: 0 auto;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
     align-items: center
@@ -289,6 +317,13 @@ li {
     background-color: #D43545;
   }
   
+  .email {
+      background-color: #edf0f1;
+      font-family: "Montserrat", sans-serif;
+  }
+  .message{
+    font-family: "Montserrat", sans-serif;
+  }
   /* Style the container/contact section */
   /* .container {
     border-radius: 5px;
@@ -318,3 +353,31 @@ li {
       margin-top: 0;
     }
   }
+
+/* Footer */
+.footer { 
+    font-family: "Montserrat", sans-serif;
+    position: sticky;
+    /* left: 0; */
+    /* margin-top: 1; */
+    bottom: 0;
+    /* width: 100%; */
+    background-color: #D43545;
+    color: white;
+    text-align: center;
+    /* margin-bottom: 5px; */
+    flex-shrink: 0;
+}
+.linkedIn{
+    background-color: #D43545;
+    position: sticky;
+}
+.gitHub{
+    background-color: #D43545;
+    position: sticky;
+}
+.footerIcons{
+    background-color: #D43545;
+    position: sticky;
+    float:center;
+} 
